@@ -1,0 +1,114 @@
+/* Google Fonts- Poppins   */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: black;
+    border-radius: 50%;
+    background-color: rgb(30, 30, 41);
+    padding: 2px;
+    margin-top: 18px;
+    
+    
+}
+body{
+    height: 54vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(211, 215, 214);
+    margin-top: 10%;
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 24px;
+    padding: 2px;
+    box-shadow: 3px 2px 4px 5px rgba(0,0,0,0.1);
+
+
+
+}
+.image .profile-card{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid white;
+}
+.profile-card .text-data{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     
+
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgb(0,0,0);
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.profile-card  .media-button{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.media-button .link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+
+
+
+}
+.profile-card .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+
+}
+.buttons .button{
+    color: #fff;
+    font: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 25px;
+    margin: 0 10px;
+     padding: 8px 24px;
+     background-color: #4070f4;
+     cursor: pointer;
+     transition: all 0.3s ease;
+}
+.buttons .button:hover{
+    background-color: #0e4bf1;
+
+}
